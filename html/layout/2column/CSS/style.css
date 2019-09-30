@@ -16,11 +16,21 @@ body {
   padding: 50px 0;
 }
 .main {
+  float: left;
   background: #fa8072;
   height: 600px;
+  width: 500px;
+  line-height: 600px;
+}
+.side {
+  float: right;
+  background-color: #fffacd;
+  height: 600px;
+  width: 300px;
   line-height: 600px;
 }
 .footer {
   background: #add8e6;
   padding: 50px 0;
+  clear: both;
 }
