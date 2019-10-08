@@ -1,0 +1,56 @@
+@charset "utf-8";
+.wrap {
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+.header {
+  background-color: #808080;
+  width: 80%;
+  height: 100px;
+  text-align: center;
+  margin: 40px;
+}
+.item {
+  background-color: #00ffff;
+  width: 20%;
+  height: 300px;
+  text-align: left;
+  margin-left: 40px;
+  float: left;
+  clear: both;
+}
+.text {
+  background-color: #cd5c5c;
+  width: 30%;
+  height: 100px;
+  float : left;
+  margin: 0px 10px;
+  float: left;
+
+}
+.sub1 {
+  background-color: #7fffd4;
+  width: 30%;
+  height: 70px;
+  margin: 0px 10px;
+  clear: both;
+  float: left;
+}
+.sub2 {
+  background-color: #7fffd4;
+  width: 30%;
+  height: 70px;
+  margin: 0px 10px;
+  float: left;
+}
+.banner {
+  background-color: #eee8aa;
+  width: 30%;
+  height: 100px;
+  float: right;
+}
+.footer {
+  float: right;
+}
