@@ -1,0 +1,22 @@
+body {
+  background: #f0f8ff;
+}
+.wrap {
+  display: inline-block;
+  max-width: calc(1280/1920*100%);
+  margin: 50px auto;
+}
+.nav {
+  display: inline-block;
+  background-color: #db7093;
+  width: 200px;
+}
+.nav  ul li {
+  text-align: center;
+}
+.column {
+  display: inline-block;
+  background-color: #8fbc8f;
+  width: 550px;
+  justify-content: center;
+}
