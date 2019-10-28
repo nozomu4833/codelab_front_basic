@@ -2,14 +2,16 @@ body {
   background: #f0f8ff;
 }
 .wrap {
-  display: inline-block;
+  display: flex;
   max-width: calc(1280/1920*100%);
-  margin: 50px auto;
+  margin: 50px 200px;
+  align-items: center;
 }
 .nav {
   display: inline-block;
   background-color: #db7093;
   width: 200px;
+  text-align: center;
 }
 .nav  ul li {
   text-align: center;
@@ -18,5 +20,5 @@ body {
   display: inline-block;
   background-color: #8fbc8f;
   width: 550px;
-  justify-content: center;
+  text-align: center;
 }
