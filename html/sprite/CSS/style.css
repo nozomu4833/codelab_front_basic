@@ -9,8 +9,11 @@ ul {
 li {
   width: 100px;
   height: 50px;
-  background: url(./sprite.png) no-repeat;
+  background: url(img/sprite.png) no-repeat;
 }
 li:hover {
   transition: .3s;
+}
+li {
+  background-position: 0 40;
 }

@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  max-width: calc(1900/2800*100%);
+  margin: 50px auto;
+}
+h1 {
+  margin:10px auto;
+  text-align: center;
+}
+h2 {
+  margin:10px auto;
+  text-align: center;
+}
+tr {
+  text-align: left;
+}
+table {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  word-wrap: break-word;
+  border-collapse: collapse;
+}
+th {
+  background-color: #c0c0c0;
+  width: 300px;
+}
+td {
+  width: 400px;
+}
+.sex {
+  margin: auto 10px;
+}
+#name {
+  width: 300px;
+  height: 25px;
+  margin: auto;
+  margin: 5px 10px;
+  resize: none;
+}
+.menu2 {
+  width: 300px;
+  height: 25px;
+  margin: auto;
+  margin: 5px 10px;
+  resize: none;
+}
+.text {
+  resize: none;
+  width: 200px;
+  height: 200px;
+}
+select {
+  margin: auto 10px;
+}
+.side {
+  margin: auto 10px;
+}
+#QA {
+  width: 300px;
+  height: 175px;
+  margin: 10px;
+  resize: none;
+}
+.footer {
+  margin: 20px auto;
+}
+.button {
+	display: block;
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+  background: #1e90ff;
+  margin: 0 auto;
+}
+.button:hover {
+	 opacity:0.5;
+	 cursor: pointer;
+	 text-decoration: none;
+}

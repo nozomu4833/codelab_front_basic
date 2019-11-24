@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Table</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <wrap>
+      <h1>フォーム練習</h1>
+      <h2>お問い合わせ</h2>
+      <table border="1">
+        <tr>
+          <th>お名前</th>
+          <td>
+            <input type="text" id="name" name="name"　class="menu">
+          </td>
+        </tr>
+        <tr>
+          <th>ご住所</th>
+          <td>
+            <input type="text" id="address" class="menu2">
+          </td>
+        </tr>
+        <tr>
+          <th>性別</th>
+          <td>
+            <label><input type="radio" name="sex" value="sex" class="sex" checked>男性</label>
+            <label><input type="radio" name="sex" value="sex" class="sex" >女性</label>
+          </td>
+        </tr>
+        <tr>
+          <th>お問い合わせ種別</th>
+          <td><select name="example">
+              <option value="選択肢1">資料請求</option>
+              <option value="選択肢2">選択肢2</option>
+              <option value="選択肢3">選択肢3</option>
+              </select>
+          </td>
+        </tr>
+        <tr>
+          <th>ご希望の連絡方法(複数選択可)</th>
+          <td><label><input type="radio" name="TEL" value="TEL" class="side">電話</label>
+              <label><input type="radio" name="TEL" value="TEL" class="side">メール</label>
+              <label><input type="radio" name="TEL" value="TEL" class="side">訪問</label>
+          </td>
+        </tr>
+        <tr>
+          <th class="text">お問い合わせ内容</th>
+          <td>
+            <input type="text" id="QA">
+          </td>
+        </tr>
+      </table>
+    </wrap>
+  </body>
+  <footer class="footer">
+  <a href="#" class="button">送信</a>
+  </footer>
+</html>
