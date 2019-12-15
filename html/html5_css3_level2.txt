@@ -1,0 +1,24 @@
+・marginの相殺
+
+マージンの相殺は、垂直マージンを指定した2つのブロックレベル要素が並んだ時に起こります。マージンの相殺が起こると、2つのマージンのうち大きい方（等しい場合はいずれか）が1つのマージンとしてみなされます。
+
+原則として、インフロー、ブロックレベル、ボックス間の隣接する垂直マージンは常に相殺されます。
+
+
+・articleタグとsectionタグの違い
+
+セクションを表す要素
+section…その範囲が一般的な章・節・項などであることを示す要素。 article…その範囲がセクションの中で、独立しており、それだけで完結していることを示す要素。 aside…その範囲がページの中で、メインコンテンツとは関連性が低い補足や広告などを示す要素。 nav…その範囲がナビゲーションであることを示す要素。
+
+
+・サイズの単位 px、%、em、remの違い
+
+フォントサイズ設定にem単位を使うと、ユーザー設定のオーバーライドに関する問題を回避しやすくなります。1emの大きさはブラウザーのfont-sizeのデフォルト値で決まります。開発者やユーザーが変更しなければ、1emは16pxです。
+
+
+・max-width(max-height)、min-width(min-height)、vw、vhの違い
+
+Viewport Height（vh）：viewportの高さに基づく。1vhはviewportの高さの1%に相当する
+Viewport Width（vw）：viewportの幅に基づく。1vwはviewportの幅の1%に相当する
+Viewport Minimum（vmin）：viewportの（高さと幅のうち）小さいほうの寸法に基づく。viewportの高さが幅より小さい場合、1vminはviewportの高さの1%に相当する。同様にviewportの幅が高さより小さい場合、1vminはviewportの幅の1%に相当する
+Viewport Maximum（vmax）：viewportの（高さと幅のうち）大きいほうの寸法に基づく。viewportの高さが幅より大きい場合、1vmaxはviewportの高さの1%に相当する。同様にviewportの幅が高さより大きい場合、1vmaxはviewportの幅の1%に相当する
